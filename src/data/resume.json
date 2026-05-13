@@ -1,0 +1,108 @@
+{
+  "bio": "Creative full-stack software engineer with a specialty in Voice and Text AI via LLMs and UI/UX design. Shipped LLM-integrated solutions to over 150 businesses and led 2 frontend app rewrites with React.",
+  "skills": {
+    "Frontend": [
+      "React",
+      "JavaScript",
+      "TypeScript",
+      "Redux",
+      "HTML",
+      "CSS",
+      "SCSS",
+      "Relay",
+      "browser devtools",
+      "cross-compatibility",
+      "accessibility",
+      "Angular",
+      "Vue",
+      "Next.js",
+      "ESLint",
+      "Webpack",
+      "Babel"
+    ],
+    "Backend": [
+      "Node.js",
+      "GraphQL",
+      "PostgreSQL",
+      "Schema Design",
+      "Sequelize.js",
+      "GraphQL dataloaders",
+      "Express",
+      "Java",
+      "Python",
+      "Golang",
+      "PHP",
+      "ElasticSearch",
+      "PGVector",
+      "Vector indexing"
+    ],
+    "DevOps and Testing": [
+      "GitHub Actions",
+      "AWS",
+      "GCP",
+      "Jest",
+      "Playwright",
+      "AI Integration (OpenAI and ElevenLabs AI)",
+      "Prompt Engineering",
+      "Microservices",
+      "Docker",
+      "NPM",
+      "Yarn",
+      "NVM"
+    ]
+  },
+  "experience": [
+    {
+      "company": "ReachifyAI",
+      "location": "San Diego, CA",
+      "title": "Software Engineer II",
+      "start": "July 2022",
+      "end": "April 2026",
+      "bullets": [
+        "Built and shipped an AI Voice Concierge and SMS Ordering service to over 150 businesses, leading to an increase in average daily restaurant orders of about 10%.",
+        "Created and maintained API integrations for major restaurant platforms like OLO, Square, and Toast, handling hundreds of baskets and completed orders per month.",
+        "Integrated both text (SMS) and voice (phone) AI output using platforms like OpenAI and ElevenLabs and routed through telephony services like Bandwidth and Twilio, handling hundreds of calls per day regarding orders and frequently asked questions.",
+        "Parsed text and speech inputs into discrete data results to determine customer intents, analyze call + order data, and index menu items for restaurants.",
+        "Created and maintained a UI component library in React, used within Reachify’s main administration app, and a checkout app handling dozens of transactions daily.",
+        "Built performant backend object-relational models with Node, Sequelize, and PostgreSQL, and optimized using Redis-backed data loaders as a caching layer."
+      ]
+    },
+    {
+      "company": "BTB Security",
+      "location": "Philadelphia PA",
+      "title": "Software Engineer",
+      "start": "November 2020",
+      "end": "July 2022",
+      "bullets": [
+        "Led two successful projects to redesign internal tools websites from Angular into React JS, removing tech debt and allowing for new data visualizations in a custom framework.",
+        "Utilized REST APIs within Golang to ingest and normalize logs from 10-15 security services per client, which were analyzed and indexed with ElasticSearch.",
+        "Maintained PHP code for backend services and APIs that communicated with the React app."
+      ]
+    },
+    {
+      "company": "Rutgers University",
+      "location": "Camden NJ",
+      "title": "Paid Internship for CCIB",
+      "start": "June 2018",
+      "end": "June 2020",
+      "bullets": [
+        "Created a JavaScript based visualizer engine for theoretical movement algorithms.",
+        "Presented research at a research conference in New Haven, CT.",
+        "Created Python scripts to scrape research data and integrate with various API endpoints"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "Rutgers University",
+      "location": "Camden NJ",
+      "degree": "B.S. Computer Science + B.A. Digital Studies",
+      "start": "September 2016",
+      "end": "May 2020",
+      "bullets": [
+        "Webmaster for Association of Computing Machinery - Rutgers Camden Branch",
+        "Designed first club website with Python, Flask, JS, and Google Cloud Platform hosting"
+      ]
+    }
+  ]
+}

@@ -15,92 +15,53 @@ export default function About() {
           </div>
           <h2>About Me</h2>
           <p>
-            I love to develop beautiful, responsive sites and present incredible user experiences.
-            I have a versatile skillset — ranging from creating static sites with HTML, CSS, and
-            Javascript to creating robust web applications with{' '}
-            <strong>React, GraphQL, SQL and more!</strong>
-            <br /><br />
-            Currently, I work as Software Engineer II at{' '}
-            <a href="https://reachify.io">Reachify</a> making call deflection software to help
-            restaurants focus on the food.
+            Creative full-stack software engineer with a specialty in Voice and Text AI via LLMs
+            and UI/UX design. Shipped LLM-integrated solutions to over 150 businesses and led 2
+            frontend app rewrites with React.
           </p>
         </div>
         <div className="content">
           <h2>Resume</h2>
           <br />
           <h3>Skills</h3>
-          <div className="two-col">
-            <ul>
-              <li>Coding and Programming</li>
-              <li>UI / UX Design</li>
-              <li>Web Development</li>
-              <li>Securing Software using OWASP concepts</li>
-              <li>Accessible Design</li>
-            </ul>
-            <ul>
-              <li>Site Troubleshooting</li>
-              <li>Information Architecture</li>
-              <li>Cross-browser compatibility</li>
-              <li>Multimedia Designs</li>
-            </ul>
-          </div>
+          <p><strong>Frontend:</strong> React, JavaScript, TypeScript, Redux, HTML, CSS, SCSS, Relay, browser devtools, cross-compatibility, accessibility, Angular, Vue, Next.js, ESLint, Webpack, Babel</p>
+          <p><strong>Backend:</strong> Node.js, GraphQL, PostgreSQL, Schema Design, Sequelize.js, GraphQL dataloaders, Express, Java, Python, Golang, PHP, ElasticSearch, PGVector, Vector indexing</p>
+          <p><strong>DevOps and Testing:</strong> GitHub Actions, AWS, GCP, Jest, Playwright, AI Integration (OpenAI and ElevenLabs AI), Prompt Engineering, Microservices, Docker, NPM, Yarn, NVM</p>
           <br />
           <h3>Experience</h3>
-          <h4 className="exp"><strong>Software Engineer II (Reachify)</strong></h4>
-          <p className="exp light"><em>July 2022 - Present</em></p>
-          <p className="exp">
-            Currently I am developing solutions for Reachify's call deflection self-management
-            portal that allows customers to create dynamic call flows for their phone systems and
-            answer customer questions automatically. I created and shipped many features of the
-            platform prior to release, utilizing many front- and back-end technologies, including
-            React, Node, GraphQL and PostgreSQL.
-          </p>
+          <h4 className="exp"><strong>ReachifyAI, San Diego, CA</strong> &ndash; <em>Software Engineer II</em></h4>
+          <p className="exp light"><em>July 2022 &ndash; April 2026</em></p>
+          <ul>
+            <li>Built and shipped an AI Voice Concierge and SMS Ordering service to over 150 businesses, leading to an increase in average daily restaurant orders of about 10%.</li>
+            <li>Created and maintained API integrations for major restaurant platforms like OLO, Square, and Toast, handling hundreds of baskets and completed orders per month.</li>
+            <li>Integrated both text (SMS) and voice (phone) AI output using platforms like OpenAI and ElevenLabs and routed through telephony services like Bandwidth and Twilio, handling hundreds of calls per day regarding orders and frequently asked questions.</li>
+            <li>Parsed text and speech inputs into discrete data results to determine customer intents, analyze call + order data, and index menu items for restaurants.</li>
+            <li>Created and maintained a UI component library in React, used within Reachify's main administration app, and a checkout app handling dozens of transactions daily.</li>
+            <li>Built performant backend object-relational models with Node, Sequelize, and PostgreSQL, and optimized using Redis-backed data loaders as a caching layer.</li>
+          </ul>
           <br />
-          <h4 className="exp"><strong>Software Engineer (BTB Security)</strong></h4>
-          <p className="exp light"><em>November 2020 - July 2022</em></p>
-          <p className="exp">
-            Created and implemented solutions and integrations for BTB's Managed Detection and
-            Response service, called RADAR®. Led a project to redesign the user interface from the
-            ground up, migrating from an outdated Angular implementation to a modern React framework.
-            Implemented back-end services in Go and PHP.
-          </p>
+          <h4 className="exp"><strong>BTB Security, Philadelphia PA</strong> &ndash; <em>Software Engineer</em></h4>
+          <p className="exp light"><em>November 2020 &ndash; July 2022</em></p>
+          <ul>
+            <li>Led two successful projects to redesign internal tools websites from Angular into React JS, removing tech debt and allowing for new data visualizations in a custom framework.</li>
+            <li>Utilized REST APIs within Golang to ingest and normalize logs from 10&ndash;15 security services per client, which were analyzed and indexed with ElasticSearch.</li>
+            <li>Maintained PHP code for backend services and APIs that communicated with the React app.</li>
+          </ul>
           <br />
-          <h4 className="exp"><strong>Researcher (DiSC)</strong></h4>
-          <p className="exp light"><em>January 2019 - May 2020</em></p>
-          <p className="exp">
-            Worked for the Rutgers Camden Digital Studies Center (DiSC) researching harassment of
-            online personalities. Specifically, we researched an "AI influencer" personality on
-            Instagram that claimed to be a robot. As a result, this character got a lot of
-            harassment on Instagram, and our job was to collect and analyze the comments to
-            determine how online harassment shown to these virtual entities was different to that
-            shown to humans. More info can be found on{' '}
-            <a href="http://club-405.com">Club 405's website.</a>
-          </p>
-          <br />
-          <h4 className="exp"><strong>Researcher (CCIB)</strong></h4>
-          <p className="exp light"><em>June 2018 - June 2020</em></p>
-          <p className="exp">
-            Worked for the Rutgers Camden Center for Computational and Integrative Biology (CCIB)
-            researching distributed search-and-evacuate algorithms using mobile agents. We created
-            the initial framework for the simulator using JavaScript, and extended it to include the
-            visualizer, which is made using <a href="https://d3js.org">D3.js.</a>
-          </p>
+          <h4 className="exp"><strong>Rutgers University, Camden NJ</strong> &ndash; <em>Paid Internship for CCIB</em></h4>
+          <p className="exp light"><em>June 2018 &ndash; June 2020</em></p>
+          <ul>
+            <li>Created a JavaScript based visualizer engine for theoretical movement algorithms.</li>
+            <li>Presented research at a research conference in New Haven, CT.</li>
+            <li>Created Python scripts to scrape research data and integrate with various API endpoints.</li>
+          </ul>
           <br />
           <h3>Education</h3>
-          <h4 className="exp"><strong>Rutgers University Camden</strong></h4>
-          <p className="exp light"><em>September 2016–May 2020</em></p>
-          <p className="exp">Graduated with a Bachelor of Arts in Computer Science and Digital Studies.</p>
-          <br />
-          <h3>Awards &amp; Honors</h3>
+          <h4 className="exp"><strong>Rutgers University, Camden NJ</strong> &ndash; <em>B.S. Computer Science + B.A. Digital Studies</em></h4>
+          <p className="exp light"><em>September 2016 &ndash; May 2020</em></p>
           <ul>
-            <li>RUCHacks Winner</li>
-            <li>PHISIM scholarship award winner</li>
-            <li>Presented research at <a href="http://ccscne.org/">CCSCNE</a> for Rutgers Camden CCIB</li>
-            <li>
-              Presented research at <a href="https://www.acjs.org/default.aspx">ACJS</a> in San
-              Antonio, and <a href="https://www.asc41.com/annualmeeting.html">ASC</a> in San
-              Francisco, CA for Rutgers Camden DiSC
-            </li>
+            <li>Webmaster for Association of Computing Machinery &ndash; Rutgers Camden Branch</li>
+            <li>Designed first club website with Python, Flask, JS, and Google Cloud Platform hosting</li>
           </ul>
         </div>
       </div>
