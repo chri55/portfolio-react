@@ -37,7 +37,7 @@ const portfolioItems = [
     title: "Algorithm Simulator",
     synopsis: "Research on distributed algorithms for mobile agents on a geometric field.",
     description: "I collaborated on this project during my time as a research assistant at the Rutgers University CCIB. The aim was to build an application to simulate and visualize search-and-evacuate algorithms for mobile agents in a known geometry. We started with simulations on a disk, and from there moved to other regular polygons and the 1-dimensional line. The original was written in Javascript with D3.js, and later we rewrote the backend to utilize Python for the data simulation. (NOTE: The repo for this project is private as it belongs to Rutgers and NSF.)",
-    link: "https://chri55.github.io/BotAlgorithms/disk/diskSelect.html",
+    link: "https://chri55.github.io/BotAlgorithms/disk/circleShowcase.html",
     previewImageLink: "https://cpt-images.s3.us-east-2.amazonaws.com/botAlgDemo.png",
     repo: "#",
     tags: ["JavaScript", "HTML", "CSS", "D3.js", "Python", "Django", "Amazon Web Services"],
