@@ -1,0 +1,95 @@
+@font-face {
+  font-family: "Lovelo Black";
+  src: url('/fonts/Lovelo-Black.ttf');
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url('/fonts/Lato-Regular.ttf');
+}
+
+:root {
+  font-size: 1.3em;
+  line-height: 1.5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  width: 100%;
+  background-color: rgb(30, 34, 39);
+  color: #E0E0E0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lovelo Black", sans-serif;
+  width: auto;
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+}
+
+p,
+span,
+li,
+a {
+  font-family: "Lato", sans-serif;
+}
+
+a {
+  color: #76C893;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:visited {
+  color: #76C893;
+}
+
+a::after {
+  content: "";
+  background-color: #76C893;
+  transform: scaleX(0);
+  transition: 250ms ease;
+  height: 2px;
+  display: block;
+  width: 100%;
+  margin-top: -5px;
+  margin-bottom: 5px;
+}
+
+a:hover::after {
+  transform: scaleX(1);
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.layout-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom-spacer {
+  height: 70px;
+  width: 100%;
+  display: block;
+}
+
+@media only screen and (min-width: 1000px) {
+  .bottom-spacer {
+    display: none;
+  }
+}

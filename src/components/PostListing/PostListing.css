@@ -1,0 +1,11 @@
+.post-title {
+  padding-top: 15px;
+  padding-bottom: 5px;
+  font-size: 1.4em;
+}
+
+.post-excerpt {
+  margin-top: 5px;
+  width: 80%;
+  font-size: 0.9em;
+}

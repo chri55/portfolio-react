@@ -1,0 +1,32 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.notice-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  margin-top: 25px;
+  width: 80vw;
+}
+
+.notice-container h5 {
+  text-align: center;
+  margin: 0;
+}
+
+@media only screen and (min-width: 1000px) {
+  .footer {
+    margin-bottom: 40px;
+  }
+
+  .notice-container {
+    width: 75vw;
+  }
+}

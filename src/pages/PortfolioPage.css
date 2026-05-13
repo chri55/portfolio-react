@@ -1,0 +1,54 @@
+.index-container {
+  margin: 0 auto;
+  width: 90%;
+  padding: 20px;
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 6px;
+}
+
+.tags {
+  list-style-type: none;
+  margin: 2px;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tagwhite {
+  padding: 3px;
+  background-color: rgba(0, 220, 255, 0.2);
+  border-radius: 3px;
+  color: #e0e0e0;
+  margin: 6px;
+  font-family: "Lovelo Black", sans-serif;
+  font-size: 0.75em;
+}
+
+.project {
+  margin-top: 25px;
+}
+
+.no-underline::after {
+  height: 0;
+}
+
+@media screen and (min-width: 1000px) {
+  .portfolio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .project {
+    position: relative;
+    width: calc(50% - (1.2em * 2));
+    margin: 0;
+    margin-top: 25px;
+  }
+}

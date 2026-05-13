@@ -1,0 +1,46 @@
+.header {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.job {
+  padding: 5px;
+  border-radius: 4px;
+  background-color: #76C893;
+  color: #1A1D2A;
+  font-size: 0.75rem;
+}
+
+.site-title {
+  padding-top: 10px;
+  color: #e0e0e0;
+}
+
+h1 {
+  font-size: 1.5rem;
+  width: 100%;
+}
+
+hr {
+  width: 80%;
+}
+
+.spacer {
+  margin: 10px;
+}
+
+@media only screen and (min-width: 1000px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  hr {
+    width: 75%;
+  }
+
+  .job {
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,32 @@
+const config = {
+  siteTitle: "Christopher Till",
+  siteTitleShort: "Chris Till",
+  siteTitleAlt: "Chris Till - Web Developer, Frontend Engineer",
+  siteLogo: "/logos/logo-1024.png",
+  siteUrl: "https://christill.net",
+  pathPrefix: "",
+  siteDescription: "Chris Till's Web Development Portfolio",
+  siteRss: "/rss.xml",
+  siteFBAppID: "1825356251115265",
+  googleAnalyticsID: "UA-47311644-5",
+  disqusShortname: "https-vagr9k-github-io-gatsby-advanced-starter",
+  dateFromFormat: "YYYY-MM-DD",
+  dateFormat: "DD/MM/YYYY",
+  postsPerPage: 4,
+  userName: "Christopher Till",
+  userEmail: "cpaultill@gmail.com",
+  userTwitter: "",
+  userLocation: "New Jersey, US",
+  userAvatar: "https://api.adorable.io/avatars/150/test.png",
+  userDescription: "Yeah, I like animals better than people sometimes... Especially dogs. Dogs are the best. Every time you come home, they act like they haven't seen you in a year. And the good thing about dogs... is they got different dogs for different people.",
+  userLinks: [
+    { label: "GitHub", url: "https://github.com/chri55", iconClassName: "fa fa-github" },
+    { label: "Twitter", url: "https://twitter.com", iconClassName: "fa fa-twitter" },
+    { label: "Email", url: "cpaultill@gmail.com", iconClassName: "fa fa-envelope" },
+  ],
+  copyright: "Copyright © 2020. Christopher Till",
+  themeColor: "#c62828",
+  backgroundColor: "#e0e0e0",
+};
+
+export default config;
