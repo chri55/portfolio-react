@@ -58,10 +58,10 @@ export default function Home() {
         <div className="content">
           <h2>Hi!</h2>
           <p>
-            I'm Chris. I love to develop beautiful, responsive sites and
-            present incredible user experiences. I have a versatile skillset —
-            ranging from creating static sites with HTML, CSS, and Javascript
-            to creating robust web applications with React, GraphQL, SQL and more!
+            I'm Chris — a creative full-stack software engineer with a specialty in Voice and Text AI
+            via LLMs and UI/UX design. I've shipped LLM-integrated solutions to over 150 businesses
+            and led multiple frontend app rewrites with React. I enjoy building things that are fast,
+            accessible, and actually useful.
           </p>
           <Link to="/about"><h3>See my resume!</h3></Link>
           <p><a href="https://github.com/chri55">Connect with me on GitHub.</a></p>
@@ -71,8 +71,8 @@ export default function Home() {
           <h2>Some Tools I Like To Use:</h2>
           <div className="tech">
             {renderTechLogos(
-              ['React', 'GraphQL', 'Redux', 'PostgreSQL', 'JS', 'CSS', 'JSX', 'HTML', 'Gatsby'],
-              isMobile ? 9 : 8
+              ['React', 'TypeScript', 'Node.js', 'GraphQL', 'AWS', 'PostgreSQL', 'Python',  'Docker', 'JS'],
+              isMobile ? 9 : 8 // 3x3 grid on mobile, 2x4 grid on desktop
             )}
           </div>
         </div>
