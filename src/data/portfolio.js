@@ -1,5 +1,33 @@
 const portfolioItems = [
     {
+      title: 'Game-Music Recommender',
+      synopsis: 'Analyze Spotify music to recommend games, and vice versa',
+      description: 'Music and Game Recommendations using Spotify, LastFM, IGDB, and RAWG data. This project uses audio analysis endpoints (Reccobeats) similar to those that used to be on Spotify\'s API, to get major musical features like tone, speed, modality, and map them to IGDB\'s tags and genres to find games that the user might enjoy. Similarly, it can analyze a list of the user\'s favorite games and find music they might like on Spotify. In late 2025/early 2026, Spotify heavily limited their API access and search, so to circumvent this, we gather music popularity data from LastFM, and map the game keywords to their genres. Then, we return the Spotify results to the user so they can listen on their logged in account. ',
+      link: 'https://game-music-rec-production.up.railway.app/games',
+      previewImageLink: 'https://cpt-images.s3.us-east-2.amazonaws.com/game-music-rec/game-music-rec-main.png',
+      repo: 'https://github.com/chri55/game-music-rec',
+      tags: ["JavaScript", "HTML", "CSS", "React", "Postgres", "Redis", "Vite"],
+      slug: 'game-music-rec',
+      gifs: [
+        {
+          src: "https://cpt-images.s3.us-east-2.amazonaws.com/game-music-rec/album-to-games.gif",
+          caption: 'Spotify Album to Games Recommendation',
+        },
+        {
+          src: "https://cpt-images.s3.us-east-2.amazonaws.com/game-music-rec/listen-history-to-games.gif",
+          caption: 'Spotify Listen History to Games Recommendation',
+        },
+        {
+          src: "https://cpt-images.s3.us-east-2.amazonaws.com/game-music-rec/games-to-music-a.gif",
+          caption: 'Games List to Music (Albums/Artists) Recommendation A',
+        },
+        {
+          src: "https://cpt-images.s3.us-east-2.amazonaws.com/game-music-rec/games-to-music-b.gif",
+          caption: 'Games List to Music (Albums/Artists) Recommendation B',
+        }
+      ],
+    },
+    {
     index: 0,
     title: "Pokopedia Favorites",
     synopsis: "A small tool to help your small friends",

@@ -32,12 +32,22 @@ export default function PortfolioItem() {
           <img src={item.previewImageLink} alt={`Screenshot of ${item.title}`} className="featured" />
         </section>
         <br />
-        <a className="no-underline" href={item.link}>
-          <div className="project-link">Link to Project</div>
+        <a className="no-underline" href={item.link} target="_blank" rel="noopener noreferrer">
+          <div className="project-link">Link to Project ↗</div>
         </a>
         <h3>More about this project...</h3>
         <hr className="divider" />
         <p>{item.description}</p>
+        {item.gifs && item.gifs.length > 0 && (
+          <div className="demo-gifs">
+            {item.gifs.map((gif, i) => (
+              <figure key={i} className="demo-gif-figure">
+                <img src={gif.src} alt={gif.caption || `Demo ${i + 1} of ${item.title}`} className="demo-gif" />
+                {gif.caption && <figcaption>{gif.caption}</figcaption>}
+              </figure>
+            ))}
+          </div>
+        )}
         <h3>Technologies used</h3>
         <hr className="divider" />
         <ul>
