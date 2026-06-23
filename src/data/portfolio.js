@@ -2,7 +2,7 @@ const portfolioItems = [
     {
       title: 'Tweetr - Bird Soundscapes',
       synopsis: 'Listen to real birds from different parts of North America',
-      description: ```
+      description: `
       This tool aims to be a fun way to explore areas where birds have been seen and trakced across the US and Canada.
 
 Featuring data from eBird, Xeno-Canto, iNaturalist, Wikipedia, and the National Park System, users can drop a pin anywhere in the US, and get interesting data about birds in that area. Data available is mostly limited to eBird's system, hence why there is not much on other contintents for now.
@@ -14,7 +14,7 @@ Once loaded, up to eight birds will start to play their cries. They can be muted
 The panel along the right side shows "notable" (more rare) and most common bird sightings, along with the date(s) they were sighted, and approximate location. Clicking a bird reveals more information, and links their page on Wikipedia and eBird's website. You can also listen to a call directly from Xeno-Canto if one is available.
 
 In the settings pane, you can exclude birds from showing up in the recordings. This is limited to loaded birds, so searching for a certain type may not show up if it is not currently loaded by an API.
-      ```,
+      `,
       link: 'https://tweetr-soundscape-explorer.netlify.app/',
       previewImageLink: 'https://cpt-images.s3.us-east-2.amazonaws.com/tweetr/tweetr-main.png',
       repo: 'https://github.com/chri55/bird-soundscape-explorer',
