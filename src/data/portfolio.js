@@ -1,12 +1,44 @@
 const portfolioItems = [
     {
+      title: 'Tweetr - Bird Soundscapes',
+      synopsis: 'Listen to real birds from different parts of North America',
+      description: ```
+      This tool aims to be a fun way to explore areas where birds have been seen and trakced across the US and Canada.
+
+Featuring data from eBird, Xeno-Canto, iNaturalist, Wikipedia, and the National Park System, users can drop a pin anywhere in the US, and get interesting data about birds in that area. Data available is mostly limited to eBird's system, hence why there is not much on other contintents for now.
+
+The national parks markers are not required to use, and simply represent "hotspots" where users have tracked and sighted lots of different birds. Try clicking the national park closest to you, and see which birds have been sighted there.
+
+Once loaded, up to eight birds will start to play their cries. They can be muted individually, to help identify specific cries. If more than 8 birds were available, then birds can be rotated out using the dice button, to introduce new species into the mix.
+
+The panel along the right side shows "notable" (more rare) and most common bird sightings, along with the date(s) they were sighted, and approximate location. Clicking a bird reveals more information, and links their page on Wikipedia and eBird's website. You can also listen to a call directly from Xeno-Canto if one is available.
+
+In the settings pane, you can exclude birds from showing up in the recordings. This is limited to loaded birds, so searching for a certain type may not show up if it is not currently loaded by an API.
+      ```,
+      link: 'https://tweetr-soundscape-explorer.netlify.app/',
+      previewImageLink: 'https://cpt-images.s3.us-east-2.amazonaws.com/tweetr/tweetr-main.png',
+      repo: 'https://github.com/chri55/bird-soundscape-explorer',
+      tags: ["JavaScript", "HTML", "CSS", "React", "Vite", "Leaflet", "APIs"],
+      slug: 'tweetr',
+      gifs: [
+        {
+          src: 'https://cpt-images.s3.us-east-2.amazonaws.com/tweetr/loading-a-park.gif',
+          caption: 'Loading a National Park',
+        },
+        {
+          src: 'https://cpt-images.s3.us-east-2.amazonaws.com/tweetr/details-pane.gif',
+          caption: 'Bird Details Panel',
+        }
+      ]
+    },
+    {
       title: 'Game-Music Recommender',
       synopsis: 'Analyze Spotify music to recommend games, and vice versa',
       description: 'Music and Game Recommendations using Spotify, LastFM, IGDB, and RAWG data. This project uses audio analysis endpoints (Reccobeats) similar to those that used to be on Spotify\'s API, to get major musical features like tone, speed, modality, and map them to IGDB\'s tags and genres to find games that the user might enjoy. Similarly, it can analyze a list of the user\'s favorite games and find music they might like on Spotify. In late 2025/early 2026, Spotify heavily limited their API access and search, so to circumvent this, we gather music popularity data from LastFM, and map the game keywords to their genres. Then, we return the Spotify results to the user so they can listen on their logged in account. ',
       link: 'https://game-music-rec-production.up.railway.app/games',
       previewImageLink: 'https://cpt-images.s3.us-east-2.amazonaws.com/game-music-rec/game-music-rec-main.png',
       repo: 'https://github.com/chri55/game-music-rec',
-      tags: ["JavaScript", "HTML", "CSS", "React", "Postgres", "Redis", "Vite"],
+      tags: ["JavaScript", "HTML", "CSS", "React", "Vite", "APIs"],
       slug: 'game-music-rec',
       gifs: [
         {
