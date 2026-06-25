@@ -1,7 +1,7 @@
 const portfolioItems = [
     {
       title: 'Tweetr - Bird Soundscapes',
-      synopsis: 'Listen to real birds from different parts of North America',
+      synopsis: 'Listen to real birds from different parts of the world using eBird and Xeno-Canto',
       description: `
       This tool aims to be a fun way to explore areas where birds have been seen and trakced across the US and Canada.
 
@@ -34,7 +34,14 @@ In the settings pane, you can exclude birds from showing up in the recordings. T
     {
       title: 'Game-Music Recommender',
       synopsis: 'Analyze Spotify music to recommend games, and vice versa',
-      description: 'Music and Game Recommendations using Spotify, LastFM, IGDB, and RAWG data. This project uses audio analysis endpoints (Reccobeats) similar to those that used to be on Spotify\'s API, to get major musical features like tone, speed, modality, and map them to IGDB\'s tags and genres to find games that the user might enjoy. Similarly, it can analyze a list of the user\'s favorite games and find music they might like on Spotify. In late 2025/early 2026, Spotify heavily limited their API access and search, so to circumvent this, we gather music popularity data from LastFM, and map the game keywords to their genres. Then, we return the Spotify results to the user so they can listen on their logged in account. ',
+      description: `Music and Game Recommendations using Spotify, LastFM, IGDB, and RAWG data.
+
+      This project uses audio analysis endpoints (Reccobeats) similar to those that used to be on Spotify\'s API, to get major musical features like tone, speed, modality, and map them to IGDB\'s tags and genres to find games that the user might enjoy.
+
+      Similarly, it can analyze a list of the user\'s favorite games and find music they might like on Spotify.
+
+      In late 2025/early 2026, Spotify heavily limited their API access and search, so to circumvent this, we gather music popularity data from LastFM, and map the game keywords to their genres. Then, we return the Spotify results to the user so they can listen on their logged in account.
+      `,
       link: 'https://game-music-rec-production.up.railway.app/games',
       previewImageLink: 'https://cpt-images.s3.us-east-2.amazonaws.com/game-music-rec/game-music-rec-main.png',
       repo: 'https://github.com/chri55/game-music-rec',
@@ -63,7 +70,13 @@ In the settings pane, you can exclude birds from showing up in the recordings. T
     index: 0,
     title: "Pokopedia Favorites",
     synopsis: "A small tool to help your small friends",
-    description: "While playing Pokemon Pokopia, I was frequently having to look up which furniture items were in which 'subcategory', on Serebii. I wanted a quickly searchable PWA to be able to type in exactly what was requested in game and pull up valid options. The data was sourced from Serebii through web scraping with Python, and loaded into the app via JSON. The app itself is a single page React app with lazy loading so as to be performant and quick to use.",
+    description: `
+    While playing Pokemon Pokopia, I was frequently having to look up which furniture items were in which 'subcategory', on Serebii.
+
+    I wanted a quickly searchable PWA to be able to type in exactly what was requested in game and pull up valid options. The data was sourced from Serebii through web scraping with Python, and loaded into the app via JSON.
+
+    The app itself is a single page React app with lazy loading so as to be performant and quick to use.
+    `,
     link: "https://clarfgg.github.io/pokopedia-favorites/",
     previewImageLink: "https://cpt-images.s3.us-east-2.amazonaws.com/pokopedia-favorites.png",
     repo: "https://github.com/clarfgg/pokopedia-favorites",
@@ -74,7 +87,11 @@ In the settings pane, you can exclude birds from showing up in the recordings. T
     index: 2,
     title: "Rutgers Camden ACM",
     synopsis: "Club website made during my time as Webmaster of the Rutgers ACM Camden Chapter.",
-    description: "During my time at Rutgers Camden, I was the first Webmaster for our ACM chapter, which was only a year old. This is the RU-C ACM's very first chapter website, featuring dates for events, pictures taken at our club meetings, and achievements of our members. Currently only the test build is public; the production build will be available in the fall when the new Webmaster for the club takes over.",
+    description: `During my time at Rutgers Camden, I was the first Webmaster for our ACM chapter, which was only a year old.
+
+    This is the RU-C ACM's very first chapter website, featuring dates for events, pictures taken at our club meetings, and achievements of our members.
+
+    Currently only the test build is public.`,
     link: "https://acm-dev-website.ue.r.appspot.com/",
     repo: "https://github.com/rutgersacm/ruc-acm",
     previewImageLink: "https://cpt-images.s3.us-east-2.amazonaws.com/ruc-acmDemo.png",
@@ -85,7 +102,12 @@ In the settings pane, you can exclude birds from showing up in the recordings. T
     index: 1,
     title: "Club 405",
     synopsis: "A summary of research around harassment of Virtual AI and Robotic Influencers on Instagram",
-    description: "During my time at Rutgers University, I participated in a research project for the Digital Studies department in which we researched harassment of Virtual Influencers on Instagram. We focused the research around the account of a character called '@lilmiquela'. This account claims to be a real being that is robotic, not unlike Sofia the Robot, however it is simply a 3D model of a character created by a company called Brud. Because of the ambiguity of facts surrounding this account it gets a lot of harassment, and we were interested to see what kind of harassment was most common for a virtual being to receive.",
+    description: `During my time at Rutgers University, I participated in a research project for the Digital Studies department in which we researched harassment of Virtual Influencers on Instagram.
+
+    We focused the research around the account of a character called '@lilmiquela'.
+
+    This account claims to be a real being that is robotic, not unlike Sofia the Robot, however it is simply a 3D model of a character created by a company called Brud. Because of the ambiguity of facts surrounding this account it gets a lot of harassment, and we were interested to see what kind of harassment was most common for a virtual being to receive.
+    `,
     link: "https://chri55.github.io/club405/",
     previewImageLink: "https://cpt-images.s3.us-east-2.amazonaws.com/club405Demo.png",
     repo: "https://github.com/chri55/club405",
@@ -96,7 +118,13 @@ In the settings pane, you can exclude birds from showing up in the recordings. T
     index: 3,
     title: "Algorithm Simulator",
     synopsis: "Research on distributed algorithms for mobile agents on a geometric field.",
-    description: "I collaborated on this project during my time as a research assistant at the Rutgers University CCIB. The aim was to build an application to simulate and visualize search-and-evacuate algorithms for mobile agents in a known geometry. We started with simulations on a disk, and from there moved to other regular polygons and the 1-dimensional line. The original was written in Javascript with D3.js, and later we rewrote the backend to utilize Python for the data simulation. (NOTE: The repo for this project is private as it belongs to Rutgers and NSF.)",
+    description: `I collaborated on this project during my time as a research assistant at the Rutgers University CCIB.
+
+    The aim was to build an application to simulate and visualize search-and-evacuate algorithms for mobile agents in a known geometry.
+
+    We started with simulations on a disk, and from there moved to other regular polygons and the 1-dimensional line.
+
+    The original was written in Javascript with D3.js, and later we rewrote the backend to utilize Python for the data simulation.`,
     link: "https://chri55.github.io/BotAlgorithms/disk/circleShowcase.html",
     previewImageLink: "https://cpt-images.s3.us-east-2.amazonaws.com/botAlgDemo.png",
     repo: "#",
@@ -107,7 +135,14 @@ In the settings pane, you can exclude birds from showing up in the recordings. T
     index: 5,
     title: "Squid Bounce",
     synopsis: "Pixi.js minigame inspired by Splatoon.",
-    description: "To help me learn JavaScript when I first began, I did this as a side project and used a fun little JS game engine called Pixi.js. Currently, it has infinite levels, increasing difficulty, and a point system based on how high you've gotten. In the future I hope to make some custom textures using pixel art for the lava that follows the player. I also plan to implement platforms that interact with the player differently, such as ice for sliding landings and conveyor belts to increase difficulty. Overall, I learned a lot about Pixi.js and JavaScript as a whole.",
+    description: `To help me learn JavaScript when I first began, I did this as a side project and used a fun little JS game engine called Pixi.js.
+
+    Currently, it has infinite levels, increasing difficulty, and a point system based on how high you've gotten.
+
+    In the future I hope to make some custom textures using pixel art for the lava that follows the player.
+
+    I also plan to implement platforms that interact with the player differently, such as ice for sliding landings and conveyor belts to increase difficulty. Overall, I learned a lot about Pixi.js and JavaScript as a whole.
+    `,
     link: "https://chri55.github.io/squid-bounce",
     previewImageLink: "https://cpt-images.s3.us-east-2.amazonaws.com/squidBounceDemo.png",
     repo: "https://github.com/chri55/squid-bounce",
@@ -118,7 +153,12 @@ In the settings pane, you can exclude birds from showing up in the recordings. T
     index: 6,
     title: "WebCalc",
     synopsis: "A vanilla JavaScript web calculator I made as a practice for The Odin Project.",
-    description: "As part of the curriculum for The Odin Project, a series of courses about web development, I was asked to make a calculator in JavaScript using no libraries. I learned some very important lessons about how postfix notation is parsed and used in calculations. This currently support multi-operator expressions, decimal point numbers, and the 4 basic math functions.",
+    description: `As part of the curriculum for The Odin Project, a series of courses about web development, I was asked to make a calculator in JavaScript using no libraries.
+
+    I learned some very important lessons about how postfix notation is parsed and used in calculations.
+
+    This currently support multi-operator expressions, decimal point numbers, and the 4 basic math functions.
+    `,
     link: "https://chri55.github.io/webcalculator",
     previewImageLink: "https://cpt-images.s3.us-east-2.amazonaws.com/webcalcDemo.png",
     repo: "https://github.com/chri55/webcalculator",
@@ -127,7 +167,7 @@ In the settings pane, you can exclude birds from showing up in the recordings. T
   },
   {
     index: 7,
-    title: "Web Developer Portfolio",
+    title: "Portfolio",
     synopsis: "This website. Built with React and Vite.",
     description: "My senior project in my Digital Studies curriculum was to create my own website, from getting and setting up my own URL to hosting the site itself. For my URL, I used Amazon Web Services Route 53 service to buy and manage the domain. This site is also hosted on Netlify. Originally built with Gatsby, it has been migrated to a modern React + Vite setup.",
     link: "https://github.com/chri55/portfolio-react",

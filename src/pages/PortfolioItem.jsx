@@ -37,7 +37,9 @@ export default function PortfolioItem() {
         </a>
         <h3>More about this project...</h3>
         <hr className="divider" />
-        <p>{item.description}</p>
+        {item.description.split(/\n\s*\n/).map((para, i) => (
+          <p key={i}>{para.trim()}</p>
+        ))}
         {item.gifs && item.gifs.length > 0 && (
           <div className="demo-gifs">
             {item.gifs.map((gif, i) => (
